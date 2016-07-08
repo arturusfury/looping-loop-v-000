@@ -1,5 +1,10 @@
 def looping
-	#your code here
+  loop_break = false
+
+  until loop_break
+    puts 'Wingardium Leviosa'
+  end
 end
 
-#call your method here
+# call your method here
+looping
